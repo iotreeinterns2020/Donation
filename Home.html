@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كلنا_حدك#</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="wrapper" style="background-image:url('/images/asettings.jpg') ;">
+        <main>
+            <div class="form">
+                <pre><h1 >    كلنا_حدك#</h1></pre>
+                <fieldset class="field">
+                    <button id='btn_help' class="btn waves-effect waves-light">I Need Help! !أريد المساعدة</button>
+                    <button id='btn_donate' class="btn waves-effect waves-light">I Want to Help! !أريد أن اساعد</button>
+
+                </fieldset>
+
+
+                <script type="text/javascript">
+                    document.getElementById("btn_help").onclick = function () {
+                        location.href = "HelpPage.html";
+                    };
+                </script>
+
+                <script type="text/javascript">
+                    document.getElementById("btn_donate").onclick = function () {
+                        location.href = "DonateHere.html";
+                    };
+                </script>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
