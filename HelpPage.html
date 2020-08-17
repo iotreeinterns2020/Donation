@@ -142,14 +142,12 @@
                         Full_Name: Fullname,
                         Need: need,
                         Location: place,
-                    })
+                    }).then( user => {
+                    window.open("Approved.html","_self");
+                   })}
 
-
-                    alert('Your Request is successfully submitted!! We will reach you soon! Stay Safe!');
-                    }
-                    
                     else{
-                        alert("PLEASE FULL FILL ALL FIELDS");
+                        alert("PLEASE FULL FILL ALL THE FIELDS");
                     }
                 }
                 
