@@ -6,6 +6,7 @@
     <title>I Want To Help</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
     </script>
@@ -20,13 +21,16 @@
 </head>
 
 <body>
+    <main>
     <div class="wrapper" style="background-image:url('/images/asettings.jpg') ;">
-        <main>
-
-
+       
+            <div class="form">
+                <h1 style="text-align: center;" class="font">    كلنا_حدك#</h1>   
+            </div>  
+             
             <fieldset class="inner" style="background-image: white">
                 <tittle>
-                    <pre><h3 style="color:rgb(55, 167, 161)" class="thick">I WANT TO HELP!</h3></pre>
+                    <pre><h3 style="color:rgb(12, 12, 12)" class="line">I WANT TO HELP!</h3></pre>
                 </tittle><br>
 
                 <div>
@@ -91,7 +95,7 @@
                             <option value="Food">Food/ طعام</option>
                             <option value="Clothes">Clothes/ ثياب</option>
                             <option value="Money">Money/ المال</option>
-                            <option value="Place">Place/ مسكن</option>
+                            <option value="Place">Place/ مقوى</option>
                             <option value="Others">Others/ غير</option>
                         </select>
                         <input type="text" name="donation" id="donation" style='display:none;' placeholder="Tap" />
@@ -103,10 +107,11 @@
 
                 <br>
 
-                <button id='btn_submit' class="btn waves-effect waves-light">Submit</button>
+                <button id='btn_submit' class="fv">SUBMIT</button>
 
             </fieldset>
 
+            
 
             <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
             <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
@@ -153,8 +158,9 @@
                 }
                
             </script>
-        </main>
+       
     </div>
+</main>
 </body>
 
 </html>
