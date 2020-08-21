@@ -6,7 +6,7 @@
 div.form{
   color:rgb(254, 254, 255);
   text-align: center;
-  font-size: 30;
+  font-size: 20;
   font-family: 'Cairo', sans-serif;
 }
 
@@ -14,12 +14,12 @@ div.formy{
   color:rgb(254, 254, 255);
   font-size: 30;
   font-family: 'Cairo', sans-serif;
+  /*background-color: red;*/
 }
 
 .font{
   font-size: 40;
   font-family: 'Cairo', sans-serif;
-  /*margin-left: 200%;*/
 }
 
 .fonty{
@@ -40,7 +40,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
- /* margin-top: 40;*/
   font-family: 'Cairo', sans-serif;
 }
 
@@ -76,10 +75,12 @@ input[type=text]:focus{
 .dropdown-content li span {
 color: #000;
 }
+
 .wrapper {
   height: 100%;
-  width: 100%;
-  background-size: stretch;
+  
+  width: auto;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
