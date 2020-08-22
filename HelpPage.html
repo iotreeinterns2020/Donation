@@ -50,7 +50,7 @@ background-repeat: no-repeat;">
                             <script type="text/javascript">
                                 function CheckP(val) {
                                     var element = document.getElementById('place1');
-                                    if (val == '...' || val == 'Others')
+                                    if (val == 'Others')
                                         element.style.display = 'block';
                                     else
                                         element.style.display = 'none';
@@ -61,7 +61,7 @@ background-repeat: no-repeat;">
 
 
                         <select name="place1" id="place2" onchange='CheckP(this.value);'>
-                            <option>...</option>
+                            <option value="" disabled selected>...</option>
                             <option value="Gemmayzeh" >Gemmayzeh/ الجميزة</option>
                             <option value="Achrafieh">Achrafieh/ أشرفية</option>
                             <option value="Mar Mikhael">Mar Mikhael/ مار مخايل </option>
@@ -80,7 +80,7 @@ background-repeat: no-repeat;">
                         <script type="text/javascript">
                             function Check(val) {
                                 var element = document.getElementById('need1');
-                                if (val == '...' || val == 'Others')
+                                if (val == 'Others')
                                     element.style.display = 'block';
                                 else
                                     element.style.display = 'none';
@@ -90,7 +90,7 @@ background-repeat: no-repeat;">
                     </head>
 
                     <select name="need1" id="needd" onchange='Check(this.value);'>
-                        <option>...</option>
+                        <option value="" disabled selected>...</option>
                         <option value="Food" >Food/ طعام</option>
                         <option value="Clothes" >Clothes/ ثياب</option>
                         <option value="Money" >Money/ المال</option>
