@@ -53,7 +53,7 @@ background-repeat: no-repeat;">
                         <script type="text/javascript">
                             function CheckP(val) {
                                 var element = document.getElementById('place1');
-                                if (val == '...' || val == 'Others')
+                                if (val == 'Others')
                                     element.style.display = 'block';
                                 else
                                     element.style.display = 'none';
@@ -64,7 +64,7 @@ background-repeat: no-repeat;">
 
 
                     <select name="place1" id="place2" onchange='CheckP(this.value);'>
-                        <option>...</option>
+                        <option value="" disabled selected>...</option>
                         <option value="Lebanon">Lebanon / لبنان</option>
                         <option value="France">France / فرنسا</option>
                         <option value="USA">USA / الولايات المتحدة الأمريكية </option>
@@ -85,7 +85,7 @@ background-repeat: no-repeat;">
                             <script type="text/javascript">
                                 function Check(val) {
                                     var element = document.getElementById('donation');
-                                    if (val == '...' || val == 'Others')
+                                    if (val == 'Others')
                                         element.style.display = 'block';
                                     else
                                         element.style.display = 'none';
@@ -95,7 +95,7 @@ background-repeat: no-repeat;">
                         </head>
 
                         <select name="donation" id="don" onchange='Check(this.value);'>
-                            <option>...</option>
+                            <option value="" disabled selected>...</option>
                             <option value="Food">Food/ طعام</option>
                             <option value="Clothes">Clothes/ ثياب</option>
                             <option value="Money">Money/ المال</option>
